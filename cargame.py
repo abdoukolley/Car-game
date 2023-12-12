@@ -53,7 +53,7 @@ while running:
     # end game if police car hits player car
     if car_loc[0] == car2_loc[0] and car2_loc[1] > car_loc[1] - 250:
         print("THE POLICE GOT YOU!")
-        print("Your score was", counter)
+        print("Your score was", speed)
         break
     for event in pygame.event.get():
         if event.type == QUIT:
